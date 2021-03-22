@@ -1,12 +1,11 @@
 .dog-item-container {
   display: flex;
-  justify-content: first baseline;
-  padding-top: 10px;
-  padding-bottom: 10px;
-
+max-width: 90%;
 
 }
-
+.dog-item-container img {
+  height: 45px;
+}
 .dog-item-container label{
     margin: 0 0 5px 10px;
     font-size: 14px;
@@ -15,12 +14,15 @@
     border-radius: 5px;
     width: fit-content;
     max-width: 7%;
-    font-weight: normal;
+    font-weight: bold;
     box-sizing: border-box;
     color: rgb(2, 0, 0);
 
 }
-
-.dog-item-container img {
-    height: 45px;
+.cat-item-messages{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
 }
+
