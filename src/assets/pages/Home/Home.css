@@ -1,0 +1,28 @@
+.home-dotbot-container {
+    width: 60%;
+    height: 100vh;
+    position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.home-dogbot-content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: auto;
+}
+.home-dogbot-greeeting{ 
+    width: 100%;
+    height: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(197, 196, 187);
+
+}
+.home-dogbot-greeeting label{
+    margin-bottom: 10px;
+}

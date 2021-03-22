@@ -1,0 +1,26 @@
+.dog-item-container {
+  display: flex;
+  justify-content: first baseline;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+
+}
+
+.dog-item-container label{
+    margin: 0 0 5px 10px;
+    font-size: 14px;
+    background: rgb(192, 155, 230);
+    padding: 10px;
+    border-radius: 5px;
+    width: fit-content;
+    max-width: 7%;
+    font-weight: normal;
+    box-sizing: border-box;
+    color: rgb(2, 0, 0);
+
+}
+
+.dog-item-container img {
+    height: 45px;
+}
